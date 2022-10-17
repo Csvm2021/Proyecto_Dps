@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/rolex.png" type="image/x-icon">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/historia-origen-marcas-rolex.png" width="130"   height="100" alt="">
+        </div>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Acerca de</a>
+            <a href="#">Portafolio</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Lo mejor en relojes</h1>
+            <h2>A tu alcance</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <path d="M0.00,49.99 C149.89,150.00 352.26,-49.99 499.64,49.99 L499.64,150.00 L0.00,150.00 Z" 
+            style="stroke: none; fill: #fff;"></path>
+        </svg></div>
+    </header>
+    <section style="background-color: white;">
+        <p style="text-align: center;">* Antes de iniciar el registro de tu reclamo, toma en cuenta que una vez enviado el reclamo se validara si usted realmente es cliente de nuestra tienda, luego se <br>
+            procedera a verificar dicho reclamo, la respuesta se dara lo mas pronto posible.</p> <br> <br>
+    <div style="margin: 50px;">
+        <div id="reclamosdiv">
+            <form>
+                <h2>Identificate</h2><br>
+                <label for="iname"> 
+                    Nombres
+                </label>
+                <input id="iname" type="text" name="name">
+                
+                <label for="isurname"> 
+                    Apellido paterno y materno
+                </label>
+                <input id="isurname" type="text" name="surname">
+                <br><br>
+                <label for="idocumento"> 
+                    Ingresa el numero de documento de la persona a quien se reclama:
+                </label><br>
+                <select>
+                    <option>DNI</option>
+                    <option>Pasaporte</option>
+                    <option>Carne Extranjeria</option>
+                </select><input id="idocumento" type="text" name="documento">
+                <br><br>
+                <label for="icorreo"> 
+                    Correo electronico
+                </label>
+                <input id="icorreo" type="email" name="correo">
+                
+                <label for="itelefono"> 
+                    Telefono o celular
+                </label>
+                <input id="itelefono" type="numbre" name="telefono" pattern="[0-9]{9}">
+                <br><br>
+                <label for="iexplicacion"> 
+                    Explicanos el motivo de tu reclamo
+                </label><br>
+                <textarea name="explicacion" id="iexplicacion" rows="10" cols="50"></textarea>
+                <p for="ifile">
+                    <b>Si tienes documentos relacionados al reclamo, agregalos (Opcional)</b> <br>
+                    Adjunta archivos (fotos o documentos)
+                </p>
+                <div id="div_file">
+                    <p id="textofile">Seleccione el archivo</p>
+                    <input type="file" id="ifile">
+                </div>
+                <br> <br>
+                <button id="envio">Enviar</button><br>
+            </form>
+        </div>
+    </div>
+    <br>
+    </section>
+    <section class="about-us">
+        <div class="contenedor">
+            <h2 class="titulo">Servicios</h2>
+            <div class="servicio-cont">
+                <div class="servicio-ind">
+                    <img src="img/market.png" alt="">
+                    <h3>Retiro en Tienda</h3>
+                    <p>Consulta tiendas cercanas</p>
+                </div>
+                <div class="servicio-ind">
+                    <img src="img/call-center.png" alt="">
+                    <h3>Atencion al cliente</h3>
+                    <p>Comunicate con un asesor</p>
+                </div>
+                <div class="servicio-ind">
+                    <img src="img/libro-de-reclamaciones.png" alt="">
+                    <h3>Reclamos</h3>
+                    <p>Ingresa tu reclamo aqui</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="contenedor-footer">
+            <h2 class="titulo">Siguenos</h2>
+            <div class="content-foo">
+                <h4>Phone</h4>
+                <p>942535661</p>
+            </div>
+            <div class="content-foo">
+                <h4>Correo</h4>
+                <p>grupo5@certus.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Direccion</h4>
+                <p>Calle el arbol N22</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Certus_DPS Design | Grupo5</h2>
+    </footer>
+</body>
+</html>
